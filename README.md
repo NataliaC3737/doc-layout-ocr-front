@@ -4,7 +4,7 @@
 
 A través de esta aplicación, los usuarios pueden subir apuntes escaneados o presentaciones y visualizar cómo un potente motor de IA en el backend (DocLayout-YOLO + TrOCR) analiza la estructura visual para transformarla instantáneamente en un **HTML limpio, editable y fiel al diseño original**.
 
-Ver aplicación en producción en **AI Studio**: [https://ai.studio/apps/77c0c55f-7fc3-46bf-9785-30a79e42240e](https://ai.studio/apps/77c0c55f-7fc3-46bf-9785-30a79e42240e)
+Ver aplicación en producción en **AI Studio**: [https://document-layout-ocr-editor-drafts-490819688768.europe-west2.run.app](https://document-layout-ocr-editor-drafts-490819688768.europe-west2.run.app)
 
 ---
 
