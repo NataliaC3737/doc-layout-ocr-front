@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Print configuration styles optimized for clean PDF exports and prints direct from the browser */
+@media print {
+  /* Reset page sizing and scroll overflows to permit natural multiple sheet flow */
+  html, body, #root, main, div {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+    background: white !important;
+    color: #37352f !important;
+  }
+
+  /* Forcehide all interactive items (sidebar, editor toolbar, modals, banners) */
+  #notion-sidebar,
+  #editor-header,
+  #nav-upload-btn,
+  #nav-drafts-btn,
+  #nav-editor-btn,
+  #dropzone,
+  #process-ocr-btn,
+  .print-hidden,
+  button,
+  footer,
+  aside,
+  header {
+    display: none !important;
+  }
+
+  /* Make sure the print-frame container occupies full paper width with elegant margins */
+  .print-frame {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 10px !important;
+    font-size: 11pt !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Unfold code snippets, avoid page-breaks on image blocks and tables */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+  }
+  
+  .break-inside-avoid {
+    break-inside: avoid !important;
+  }
+}
+

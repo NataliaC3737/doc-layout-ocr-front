@@ -1,0 +1,6 @@
+{
+  "name": "Notion OCR Editor & Drafts",
+  "description": "Una aplicación estilo Notion para escanear PDF e imágenes mediante OCR con IA, editar el contenido en un editor enriquecido y exportarlo a PDF o Markdown, con un apartado de borradores persistentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
